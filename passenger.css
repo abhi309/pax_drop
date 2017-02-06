@@ -1,0 +1,113 @@
+/*Dropdown passenger*/
+.passengers.no-input {
+	cursor: pointer !important;
+	background-color: #fff !important;
+}
+.passenger-text, .rooms-text {
+	position: absolute;
+	top: 6px;
+	color: #2d3e52;
+	cursor: pointer !important;
+}
+.passenger-text{
+	left: 30px;
+	top: 7px;
+}
+.rooms-text{
+	left: 97px;
+	top: 8px;
+}
+.select-passenger {
+	position: absolute;
+	top: 32px;
+	left: 0;
+	width: 510px;
+	/*height: 130px;*/
+	border: 1px solid rgba(0,0,0,.15);
+	background-color: #fff;
+	-moz-user-select: -moz-none;
+	-ms-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;
+}
+.select-passenger {
+	border-width: 1px;
+	left: 0;
+}
+.rightalign{
+	text-align: right;
+}
+.select-passenger.dropdown-menu {
+	position: absolute;
+	top: 100%;
+	left: 0;
+	z-index: 1000;
+	display: none;
+	min-width: 160px;
+	padding: 6px 0px;
+	margin: 2px 0 0;
+	list-style: none;
+	font-size: 14px;
+	text-align: left;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	border: 1px solid rgba(0,0,0,.15);
+	-webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+	box-shadow: 0 6px 12px rgba(0,0,0,.175);
+	background-clip: padding-box;
+}
+.select-passenger.dropdown-menu .col-sm-2{
+	margin-right: -10px;
+	padding-left: 10px;
+	margin-left: 7px;
+}
+.adults-dropdown label {
+	font-size: 9px;
+	font-weight: 800;
+}
+.passenger-inc-dec {
+	position: relative;
+	height: 34px;
+	border: 1px solid #e5e5e5;
+	padding: 3px;
+	display: table;
+}
+.passenger-inc-dec .input-number {
+	width: 20px !important;
+	border: none !important;
+	outline: none;
+	padding: 0;
+	text-align: center;
+	margin: 0;
+	height: 26px;
+	box-shadow: none;
+}
+.passenger-inc-dec .btn-inc-dec {
+	height: 26px;
+	border: 2px solid #d5d5d5;
+	line-height: 1;
+	padding: 0 5px;
+	background-color: #ececec;
+}
+/*.angular-date-range-picker__next-month .eu-move-icon, .angular-date-range-picker__next-month .eu-move-icon.eu_next_disabled, .angular-date-range-picker__prev-month .eu-move-icon, .angular-date-range-picker__prev-month .eu-move-icon.eu_prev_disabled, .eu-icon, .eu-icon-724, .eu-icon-adult-gray, .eu-icon-app-store, .eu-icon-arrow-circle-left-disabled, .eu-icon-arrow-circle-left-enabled, .eu-icon-arrow-circle-right-disabled, .eu-icon-arrow-circle-right-enabled, .eu-icon-baby-gray, .eu-icon-bed-gray, .eu-icon-check-circle, .eu-icon-fb, .eu-icon-fb-login, .eu-icon-fb-register, .eu-icon-gallery-icon, .eu-icon-google-play, .eu-icon-gplus, .eu-icon-guvenli, .eu-icon-home-gsm, .eu-icon-home-internet, .eu-icon-home-kredi, .eu-icon-home-sigorta, .eu-icon-iata, .eu-icon-in, .eu-icon-info-gray, .eu-icon-insta, .eu-icon-kids-gray, .eu-icon-kupa, .eu-icon-logo, .eu-icon-money-gray, .eu-icon-money-sack-gray, .eu-icon-phone-gray, .eu-icon-plane-gray, .eu-icon-rss-gray, .eu-icon-senior-gray, .eu-icon-student-gray, .eu-icon-tw, .eu-icon-umbrella-gray, .eu-icon-youtube {
+background-image: url(../images/sprite2.png);
+background-repeat: no-repeat;
+display: inline-block;
+}*/
+.form-adult-icon {
+	position: absolute;
+	top: 2px;
+	left: -20px;
+}
+.eu-icon-adult-gray {
+	background-position: 0 -72px;
+	height: 29px;
+	width: 13px;
+}
+
+/*end dropdown pass*/
+
+
+.form-inline .input-group .form-control, .form-inline .input-group .input-group-addon, .form-inline .input-group .input-group-btn {
+     width: 100%; 
+}
